@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  background-image: linear-gradient(
+    180deg,
+    #cfa508 0%,
+    rgba(189, 150, 7, 0) 106.87%
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#overLapLeafLeft {
+  position: absolute;
+  width: 762px;
+  height: 1187.25px;
+  left: -188px;
+  top: -208px;
+  z-index: -1;
+  opacity: 0.4;
+  transform: rotate(26.7deg);
+}
+#overLapLeafRight {
+  position: absolute;
+  width: 762px;
+  height: 1000px;
+  left: 40.73%;
+  right: -75.78%;
+  top: -51.43%;
+  bottom: 71.79%;
+  transform: rotate(140deg);
+  z-index: -2;
+}
+
+#main-title h1 {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 5rem;
+  text-align: center;
+  color: #fff;
+}
+#main-title h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+nav {
+  padding-top: 5px;
+}
+#nav-list ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  width: 100vw;
+  list-style: none;
+}
+#nav-list a {
+  color: white;
+  text-decoration: none;
+}
+.grid {
+  padding-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 3em;
+}
+.grid-two {
+  margin-left: -1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.grid div,
+.grid-two div {
+  flex-wrap: wrap;
+  margin: 5px;
+  width: 125px;
+  height: 125px;
+}
+.grid div img,
+.grid-two div img {
+  border: 2px solid white;
+  width: 125px;
+  height: 125px;
+}
