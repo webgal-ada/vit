@@ -115,10 +115,8 @@ p {
   min-height: 80vh;
   border: 2px solid #bada55;
 }
-.for-form {
-  border: 8px dotted blue;
-  width: 50%;
-  margin: 0 auto;
+.container h1{
+  color: #FFF;
 }
 .underphoto {
   width: 300px;
@@ -138,12 +136,13 @@ p {
   border: 3px dotted red;
 }
 .botanical-leaf {
-  // position: absolute;
+  position: absolute;
   width: 587.61px;
   height: 486.51px;
   left: 983px;
-  top: 760.49px;
+  top: 560.49px;
+  z-index: -3;
   border: 3px dotted red;
-background: url(Botanical element color-26.png);
-transform: rotate(-37.97deg);
+  background: url(images/"Botanical element color-26.png");
+  transform: rotate(-37.97deg);
 }
