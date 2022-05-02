@@ -50,14 +50,12 @@
   color: #fff;
   font-size: 2rem;
 }
-nav {
-  padding-top: 5px;
-}
+
 #nav-list ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 24px;
+  font-size: 1.25;
   width: 100vw;
   list-style: none;
 }
@@ -72,24 +70,20 @@ nav {
   justify-content: space-around;
   padding-bottom: 3em;
 }
-.grid-two {
-  margin-left: -1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.grid-text {
+  font-size: 1rem;
+  color: red;
 }
 .grid div,
 .grid-two div {
-  flex-wrap: wrap;
   margin: 5px;
-  width: 125px;
-  height: 125px;
+  width: 100px;
 }
 .grid div img,
 .grid-two div img {
   border: 2px solid white;
-  width: 125px;
-  height: 125px;
+  width: 80px;
+  height: 80px;
 }
 //----2nd html---transfer to separate stylesheet-----
 p {
@@ -108,7 +102,7 @@ p {
   width: 60px;
   height: 60px;
 }
-.submitContainer {
+.md-12{
   display: flex;
   margin: 0 auto;
   width: 90vw;
@@ -131,18 +125,17 @@ p {
   width: 400px;
   height: 400px;
 }
-.container {
-  width: 700px;
-  border: 3px dotted red;
-}
+// .container {
+//   width: 600px;
+//   border: 8px dotted red;
+// }
 .botanical-leaf {
   position: absolute;
   width: 587.61px;
-  height: 486.51px;
-  left: 983px;
-  top: 560.49px;
+  height: 676.5px;
+  left: 876.5px;
+  top: 478.49px;
   z-index: -3;
-  border: 3px dotted red;
-  background: url(images/"Botanical element color-26.png");
   transform: rotate(-37.97deg);
+  opacity: 0.44;
 }
