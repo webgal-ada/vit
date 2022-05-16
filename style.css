@@ -11,8 +11,7 @@
   background-image: linear-gradient(
     180deg,
     #cfa508 0%,
-    rgba(189, 150, 7, 0) 106.87%
-  );
+    rgba(189, 150, 7, 0) 106.87%);
   background-repeat: no-repeat;
 }
 #overLapLeafLeft {
@@ -42,13 +41,13 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
   color: #fff;
 }
 #main-title h2 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 #nav-list ul {
@@ -105,12 +104,15 @@ p {
 .md-12{
   display: flex;
   margin: 0 auto;
-  width: 90vw;
-  min-height: 80vh;
-  border: 2px solid #bada55;
+  min-width: 90vw;
+  // min-height: 80vh;
+  border: 6px solid #bada55;
 }
-.container h1{
-  color: #FFF;
+h1, h3 {
+  color: rgb(149, 3, 3);
+}
+mt-5 {
+border: 3px solid red;
 }
 .underphoto {
   width: 300px;
@@ -122,18 +124,15 @@ p {
   flex-direction: column;
   border: 4px solid #ffffff;
   margin: 0 auto;
-  width: 400px;
-  height: 400px;
+  // width: 300px;
+  height: 300px;
 }
-// .container {
-//   width: 600px;
-//   border: 8px dotted red;
-// }
+
 .botanical-leaf {
   position: absolute;
   width: 587.61px;
   height: 676.5px;
-  left: 876.5px;
+  // left: 876.5px;
   top: 478.49px;
   z-index: -3;
   transform: rotate(-37.97deg);
